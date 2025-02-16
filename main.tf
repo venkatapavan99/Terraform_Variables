@@ -1,4 +1,4 @@
-variable "instance_tye" {
+variable "instance_type" {
   type = string
 }
 variable "region" {
