@@ -10,9 +10,3 @@ variable "ami_id" {
 
 provider "aws" {
   }
-
-resource "aws_instance" "instance1" {
-  instance_type= var.instance_type
-  region = var.region
-  ami_id = var.ami_id
-}
